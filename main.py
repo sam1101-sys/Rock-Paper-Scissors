@@ -36,15 +36,15 @@ if user_input<=2:
   computer_choice = Game[computer_input]
   print(f"Computer choose\n {computer_choice}")
 
-  if user_choice == 0 and computer_choice == 2:
+  if user_input == 0 and computer_input == 2:
     print("You win!")
-  elif computer_choice == 0 and user_choice == 2:
+  elif computer_input == 0 and user_input == 2:
     print("You lose")
-  elif computer_choice > user_choice:
+  elif computer_input > user_input:
     print("You lose")
-  elif user_choice > computer_choice:
+  elif user_input > computer_input:
     print("You win!")
-  elif computer_choice == user_choice:
+  elif computer_input == user_input:
     print("It's a draw")
   
 else:
